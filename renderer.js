@@ -17,12 +17,10 @@ var images = []
     for (var i = 0; i < array.length; i++) {
         images[i] = new Image()
         images[i].onload = function(){
-            if(++i >= array.length-1){
+
                 callback(images)
-            }
+
         }
         images[i].src = array[i]
-        images[i].maxHeight = 20 + 'px'
-        images[i].maxWidth = 10 + 'px'
     }
 }

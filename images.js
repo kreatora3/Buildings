@@ -1,9 +1,8 @@
 var ImageArray = function(){
     this.imageRoutes = ['images/1.jpg',
-        'images/2.jpg',
-        'images/3.jpg',
-        'images/4.jpg',
-        'images/5.jpg'];
+        'images/house_1.png',
+        'images/house_2.png',
+        'images/house_3.png']
 }
 
 ImageArray.prototype.addImageRoute = function(img){
